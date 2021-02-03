@@ -1,0 +1,27 @@
+h1 {
+   
+}
+
+body {
+    background-color: #a4b1c2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#intro {
+    background-color:
+
+}
+
+div:first-letter {
+    font-size: 300%;
+}
+
+div::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#first {
+    font-size: 18px;
+}
