@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+        <ul id="list">
+          <li id="lettuce" class="green list-item">Lettuce</li>
+          <li id="tomato" class="red list-item">Tomato</li>
+          <li id="cheese" class="yellow list-item">Cheese</li>
+          <li id="burger" class='potato'>Burger</li>
+        </ul>
+<script>
+    const header = document.querySelector('h1')
+    header.innerText = 'Toppings';
+    const burger = document.getElementById('burger');
+    burger.setAttribute('class', 'list-item');
+    burger.classList.add('list-item');
+</script>
+    
+</body>
+</html>
